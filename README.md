@@ -53,9 +53,10 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 3. Ejecutamos los siguientes comandos mvn
     ```bash
     mvn clean compile package
-    mvn spring-boot:run 
+    
+4. Ejecutamos el siguientes comandos mvn para correr nuestro micro
+ ```bash
+ mvn spring-boot:run 
 
-4. Para asegurar que el micro esta correctamente arriba ir a http://localhost:8761/
+5. Para asegurar que el micro esta correctamente arriba ir a http://localhost:8761/
    deberiamos ver el micro **GATEWAY-SERVICE** registrado en eureka
-
-
