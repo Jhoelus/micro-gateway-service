@@ -8,7 +8,7 @@ spring:
     gateway:
       routes:
         - id: USER-SERVICE
-          uri: lb://USER-SERVICE  # 'lb' indica que se usará el balanceo de carga
+          uri: lb://USER-SERVICE
           predicates:
             - Path=/api/users/**
           filters:

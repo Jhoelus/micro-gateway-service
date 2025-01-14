@@ -1,0 +1,53 @@
+# Archivos de compilación
+/target/
+/build/
+
+# Archivos del IDE
+.idea/
+/.vscode/
+/.project
+/.settings/
+/*.iml
+
+# Archivos de dependencias
+/.mvn/
+/lib/
+
+# Archivos generados por Maven y Gradle
+*.log
+*.jar
+*.war
+*.ear
+*.db
+
+# Archivos de configuración de Maven y Gradle
+/.gradle/
+/mvnw
+/mvnw.cmd
+/gradlew
+/gradlew.bat
+
+# Archivos de Eclipse
+/.classpath
+/.project
+/.factorypath
+
+# Archivos de IntelliJ IDEA
+/.idea/*
+/*.iml
+/.idea/modules.xml
+
+# Archivos de NetBeans
+/nbproject/
+
+# Archivos temporales de sistemas operativos
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Archivos de backup de editores de texto
+*~
+*.bak
+*.swp
+
+# Archivos de configuración de Spring Boot (opcional, si no los quieres versionar)
+# /.springcloud/
